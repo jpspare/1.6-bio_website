@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Spare Design</title>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <div class="container-fluid ">
+            <a class="navbar-brand" href="#">Spare Design</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" 
+                data-bs-target="#navbarContent" 
+            >
+                <span class="navbar-toggler-icon "></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link ms-auto"href="/index.html">Home</a>
+                    <a class="nav-link ms-auto" href="/about.html">About</a>
+                    <a class="nav-link ms-auto active" href="#">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Body -->
+    <section class="bg-light text-dark mb-5">
+        <div class="bg-light justify-content-center px-sm-5 gap-lg-5 align-items-center
+            align-items-sm-end d-flex flex-column flex-sm-row"
+        >
+            <div class="pb-5 px-2 px-lg-5 col-6">
+                <img src="assets/images/undraw_contact_us_re_4qqt.svg" 
+                    alt="Profile picture of Josh" class="img-fluid col-12"
+                >
+            </div>
+            <div class="pb-5 px-2 px-lg-5 col-6">
+                <h1 class="text-end pb-3 ps-sm-3">CONTACT ME</h1>
+                <p class="text-end pb-5 ps-sm-3 text-lowercase fs-5 fw-light">
+                    (just kidding, please don't)
+                </p>
+            </div>
+        </div>
+    </section>
+    <section>
+        <form class="m-5 row">
+            <div class="mb-3 col-12">
+                <div class="input-group">
+                    <span for="emailInput" class="input-group-text">Email address</span>
+                    <input type="email" class="form-control" id="emailInput" placeholder="name@example.com">
+                </div>
+                <div id="emailHelp" class="form-text">I'll make sure to share your email with anyone who is willing to pay.</div>
+            </div>
+            <div class="col-6">
+                <div class="input-group">
+                    <span class="input-group-text">First Name</span>
+                    <input type="text" aria-label="First name" class="form-control">
+                </div>
+            </div>
+            <div class="col-6">
+                <div class="input-group">
+                    <span class="input-group-text">Last Name</span>
+                    <input type="text" aria-label="Last name" class="form-control">
+                </div>
+            </div>
+            <div class="col-12 my-4">
+                <div class="form-floating">
+                    <textarea class="form-control" id="contactFormContent" placeholder="What do you want?" style="height: 150px"></textarea>
+                    <label for="contactFormContent">What do you want?</label>
+                </div>
+            </div>
+            <div>
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#Modal">Submit</button>
+            </div>
+          </form>
+    </section>
+
+    <!-- Modal -->
+    <div class="modal fade" id="Modal" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="ModalLabel">Contact Received</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    I will be selling your information to the highest bidder, and your comments, questions, suggestions, and the various other contents of your form will be summarily disgarded. If you have concerns, please submit another contact form here. Have a wonderful day.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Josh is the best!</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+     <!-- Footer -->
+     <section class="bg-light text-dark text-end pt-5 pb-1 px-4">
+        <h5 class="pt-5">© None</h5>
+        <p class="">(seriously, who would want to copy this?)</p>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,18 @@
+/*  BBC09D Green */
+/* CE9993 Pink */
+
+.circle-link {
+    background: #BBC09D;
+}
+
+.circle-link:hover .circle-link-title {
+    visibility: hidden;
+}
+
+.circle-link:hover .circle-link-text {
+    visibility: visible;
+}
+
+.circle-link .circle-link-text {
+    visibility: hidden;
+}
